@@ -43,3 +43,4 @@ I built this mempool with both a Heap or a Linked List and you can optionally us
 - create a heap thats optimized for this problem (currently using an external library that doesn't support least priority leaf removal so I am hacking it by using a MIn Heap)
 - add a way to handle invalid transactions (I must first know what an invalid transaction looks like)
 - add a way to broadcase rejected transactions to other nodes in the network 
+- containerize application using Docker to improve mobility (had to make adjustments to make it work on windows)
