@@ -1,0 +1,3 @@
+maximumPoolSize: 5000
+dataStruct: DLL # options ar HEAP or DLL (doubly linked list)
+saveRejectedTransactions: true

@@ -1,0 +1,30 @@
+{
+  "name": "memepool",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "a simple mempool implementation",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --poll src/index.ts",
+    "test": "jest --watchAll --no-cache"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "Sameem Hadi",
+  "license": "ISC",
+  "dependencies": {
+    "@datastructures-js/priority-queue": "^5.1.1",
+    "@types/node": "^16.4.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5",
+    "yaml": "^1.10.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4"
+  }
+}
