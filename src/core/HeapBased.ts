@@ -2,6 +2,11 @@ import { MinPriorityQueue } from "@datastructures-js/priority-queue";
 import { txAttrs } from "../types/types";
 import { emitTrashedTransaction } from "./TrashedEvents";
 
+/*
+    gets the same job done as doubly linked list based data structure but has differnt time complexity for differnt actions 
+*/
+
+
 export class TxHeap {
     private queue : MinPriorityQueue<txAttrs>;
     public capacity : number = 5000; 
