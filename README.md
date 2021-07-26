@@ -34,9 +34,7 @@ Linked List will do a bit better when it comes to insertion because we wouldn't 
 A Heap based priority Queue will be offering the best time complexity for insertion O(log(n)) and will keep things in sorted order at all times. the use of a Heap will offer the best performance for structuring our transactions in the mempool. 
 
 ![Heap](https://i.ibb.co/XFQp4NG/heap.png)
-Markdown is a lightweight markup language based on the formatting conventions
-that people naturally use in email.
-As [John Gruber] writes on the [Markdown site][df1]
+
 
 I built this mempool with both a Heap or a Linked List and you can optionally use either one by adjusting the config file. 
 
