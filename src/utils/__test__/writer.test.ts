@@ -1,5 +1,5 @@
 import { existsSync, readFileSync, unlinkSync } from "fs";
-import { resolve } from "path/posix";
+import { resolve } from "path";
 import { writeLocations, txAttrs } from "../../types/types";
 import { writeTxs } from "../writer";
 

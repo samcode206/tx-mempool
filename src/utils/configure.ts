@@ -1,4 +1,4 @@
-import path from "path/posix";
+import path from "path";
 import { parse } from "yaml";
 import { readFileSync } from "fs";
 import { configAttrs, structs } from "../types/types";

@@ -1,5 +1,5 @@
 import { writeFileSync } from "fs";
-import { resolve } from "path/posix";
+import { resolve } from "path";
 import { txAttrs, writeLocations } from "../types/types";
 
 

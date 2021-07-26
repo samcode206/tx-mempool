@@ -1,5 +1,5 @@
 import { readFileSync } from "fs"; 
-import { resolve } from "path/posix";
+import { resolve } from "path";
 import {txAttrs , rawProps} from "../types/types";
 
 
